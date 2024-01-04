@@ -10,13 +10,15 @@ import {MatCardModule} from "@angular/material/card";
 
 import { HttpClientModule} from "@angular/common/http";
 import {MatIconModule} from "@angular/material/icon";
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ItemCardComponent,
-    ItemCardDetailComponent
+    ItemCardDetailComponent,
+    FilterComponent
   ],
     imports: [
         BrowserModule,

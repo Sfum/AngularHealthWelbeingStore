@@ -1,3 +1,17 @@
 
 .header
   margin: 0 20px
+
+.main
+  display: grid
+  grid-template-columns: 20% 80%
+  @media screen and (max-width: 600px)
+   display: grid
+   grid-template-columns: 0 100%
+
+.filter
+  grid-column: 1/2
+
+.grid
+  grid-column: 2/3
+

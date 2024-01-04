@@ -1,28 +1,36 @@
 /* Container */
 .container
+  display: flex
 
+.item-card__image
+  margin: auto
 
 .item-card
   display: flex
-  height: 350px
+  flex-direction: column
+  height: 400px
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
   overflow: hidden
-  padding: 10px
+  padding: 20px
 
+.item-card__manufacturer
+  position: relative
+  top: -20px
 .item-card__details
   flex: 1
-  padding: 15px
   display: flex
   flex-direction: column
   justify-content: space-between
-
 
 .item-card__header h2
   font-size: 1rem /* Smaller font size */
   color: #333
 
 
+
 .item-card__price p
+  position: relative
+  top: -30px
   font-size: 12px
   font-weight: 550
   color: red
@@ -30,17 +38,28 @@
 
 
 .item-card__wishlist,
-.item-card__description,
-.item-card__expiry-date,
-.item-card__stock
+.item-card__description
   font-size: 0.8rem /* Smaller font size */
   color: #555
   margin: 2px 0
+  position: relative
+  top: -38px
+
+
+.item-card__expiry-date
+
+  font-size: 0.7rem /* Smaller font size */
+  position: relative
+  top: -35px
+
+.item-card__stock
+  font-size: 0.7rem /* Smaller font size */
+  position: relative
+  top: -43px
 
 .item-card__manufacturer
   color: dimgray
   font-weight: 580
-  margin: 10px 0
 
 
 /* Wishlist Indicator */
@@ -67,13 +86,15 @@
 
 /* Item Card Icons */
 .item-card__icons
-  display: flex
-  align-items: center
+  position: relative
+  top: -55px
+
+
 
   .social-icon
     font-size: 1rem /* Smaller font size */
     color: #333
-    margin-right: 10px
+    margin: 10px auto
     cursor: pointer
     transition: color 0.3s ease
 
@@ -82,3 +103,7 @@
 
 
 
+.align-center
+  display: flex
+  justify-content: center
+  align-items: center
