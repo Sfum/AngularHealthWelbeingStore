@@ -1,7 +1,25 @@
-<div *ngIf="item" class="container">
-    <div class="item-card__title">
-      {{item.item_name}}
-      {{item.id}}
+<mat-card *ngIf="item" class="container">
+  <div class="item-card">
+    <div class="item-card__image">
+      <img src="https://cdn.producerloops.com/images/thumbs/62688/prod_img_62688_236x236+25.jpg" alt="{{ item.item_name }}" width="140px" height="140px"/>
     </div>
-</div>
+    <div class="item-card__details">
+      <div class="item-card__header">
+        <h2>{{ item.item_name }}</h2>
+      </div>
+      <div class="item-card__price">
+        <p>Price: ${{ item.item_price }}</p>
+        <mat-icon class="social-icon">shopping_cart</mat-icon>
+      </div>
+      <p class="item-card__description">{{ item.item_description | slice: 0:100}}...</p>
+      <p class="item-card__manufacturer">Manufacturer: {{ item.item_manufacturer }}</p>
+      <p class="item-card__expiry-date">Expiry Date: {{ item.item_expiry_date | date: 'mediumDate' }}</p>
+      <p class="item-card__stock">In Stock: <span class="stock-indicator" [class.in-stock-yes]="item.item_in_stock" [class.in-stock-no]="!item.item_in_stock">{{ item.item_in_stock ? 'Yes' : 'No' }}</span></p>
+      <div class="item-card__icons">
+        <mat-icon class="social-icon">favorite</mat-icon>
+        <mat-icon class="social-icon">document</mat-icon>
 
+      </div>
+    </div>
+  </div>
+</mat-card>

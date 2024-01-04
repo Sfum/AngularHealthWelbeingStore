@@ -1,10 +1,178 @@
 [
   {
     "id": 1,
-    "item_name": "Oborka"
+    "item_name": "Vitamin C Supplement",
+    "item_price": 15.99,
+    "item_price_detail": 12.99,
+    "item_wishlist": true,
+    "item_description": "Boost your immune system with our high-quality Vitamin C Supplement. Formulated to provide optimal health benefits, this supplement is rich in antioxidants, helping your body fight off infections and promote overall well-being. Produced by HealthCo, a trusted name in health products, our Vitamin C Supplement is a must-have in your daily routine. With a pleasant taste and easy-to-swallow capsules, maintaining your immune health has never been more enjoyable. Expiry Date: 31st December 2024. Stay healthy and vibrant!",
+    "item_manufacturer": "HealthCo",
+    "item_expiry_date": "2024-12-31",
+    "item_in_stock": true
   },
   {
     "id": 2,
-    "item_name": "Kokorka"
+    "item_name": "Protein Powder",
+    "item_price": 29.99,
+    "item_price_detail": 24.99,
+    "item_wishlist": false,
+    "item_description": "Fuel your fitness journey with our Protein Powder from FitLife. Packed with essential amino acids, this powder helps build muscle mass and supports post-workout recovery. With a delicious taste and smooth texture, our Protein Powder makes reaching your protein goals a delight. Manufactured with quality in mind, FitLife ensures that each serving contributes to your overall well-being. Expiry Date: 15th October 2023. Elevate your workout routine with FitLife's Protein Powder!",
+    "item_manufacturer": "FitLife",
+    "item_expiry_date": "2023-10-15",
+    "item_in_stock": true
+  },
+  {
+    "id": 3,
+    "item_name": "Organic Green Tea",
+    "item_price": 8.49,
+    "item_price_detail": 7.99,
+    "item_wishlist": true,
+    "item_description": "Indulge in the goodness of Organic Green Tea from GreenHarmony. Sourced from premium tea leaves, this tea is rich in antioxidants and offers a soothing experience. With a perfect blend of flavor and health benefits, GreenHarmony brings you a tea that promotes relaxation and overall wellness. Enjoy the calming ritual of sipping Organic Green Tea daily. Expiry Date: 20th August 2023. Prioritize your health with the natural goodness of GreenHarmony's Organic Green Tea.",
+    "item_manufacturer": "GreenHarmony",
+    "item_expiry_date": "2023-08-20",
+    "item_in_stock": true
+  },
+  {
+    "id": 4,
+    "item_name": "Yoga Mat",
+    "item_price": 19.99,
+    "item_price_detail": 15.99,
+    "item_wishlist": false,
+    "item_description": "Enhance your yoga practice with the ZenLiving Yoga Mat. Designed for comfort and stability, this non-slip mat provides the perfect foundation for your poses. Made with high-quality materials, ZenLiving ensures durability and easy maintenance. Whether you're a beginner or an experienced yogi, our Yoga Mat is a reliable companion for your wellness journey. Expiry Date: 15th January 2025. Immerse yourself in the tranquility of yoga with ZenLiving.",
+    "item_manufacturer": "ZenLiving",
+    "item_expiry_date": "2025-01-15",
+    "item_in_stock": true
+  },
+  {
+    "id": 5,
+    "item_name": "Fish Oil Capsules",
+    "item_price": 22.50,
+    "item_price_detail": 19.99,
+    "item_wishlist": true,
+    "item_description": "Support your heart health with OmegaHealth's Fish Oil Capsules. Packed with Omega-3 fatty acids, these capsules offer numerous benefits for your cardiovascular system. OmegaHealth ensures the highest quality, providing you with a convenient way to incorporate essential nutrients into your daily routine. Expiry Date: 30th November 2024. Prioritize your well-being with OmegaHealth's Fish Oil Capsules.",
+    "item_manufacturer": "OmegaHealth",
+    "item_expiry_date": "2024-11-30",
+    "item_in_stock": true
+  },
+  {
+    "id": 6,
+    "item_name": "Fitness Tracker",
+    "item_price": 49.99,
+    "item_price_detail": 44.99,
+    "item_wishlist": false,
+    "item_description": "Track your fitness journey with TechFit's Fitness Tracker. This innovative device monitors your steps, heart rate, and sleep patterns, providing valuable insights into your health. With a sleek design and user-friendly interface, TechFit's Fitness Tracker is the perfect companion for an active lifestyle. Expiry Date: 31st December 2023. Achieve your fitness goals with precision using TechFit's advanced Fitness Tracker.",
+    "item_manufacturer": "TechFit",
+    "item_expiry_date": "2023-12-31",
+    "item_in_stock": true
+  },
+  {
+    "id": 7,
+    "item_name": "Herbal Shampoo",
+    "item_price": 12.99,
+    "item_price_detail": 10.99,
+    "item_wishlist": true,
+    "item_description": "Nourish your hair with HerbEssence's Herbal Shampoo. Crafted with natural ingredients, this shampoo promotes healthy and vibrant hair. HerbEssence ensures a gentle yet effective cleansing experience, leaving your hair feeling refreshed and revitalized. Expiry Date: 30th September 2023. Embrace the beauty of nature with HerbEssence's Herbal Shampoo.",
+    "item_manufacturer": "HerbEssence",
+    "item_expiry_date": "2023-09-30",
+    "item_in_stock": true
+  },
+  {
+    "id": 8,
+    "item_name": "Weighted Blanket",
+    "item_price": 39.99,
+    "item_price_detail": 34.99,
+    "item_wishlist": false,
+    "item_description": "Experience comfort and relaxation with CalmCozy's Weighted Blanket. Designed to reduce stress and improve sleep quality, this blanket provides a soothing embrace. CalmCozy ensures premium quality materials for a luxurious and cozy feel. Expiry Date: 28th February 2024. Transform your sleep routine with CalmCozy's Weighted Blanket.",
+    "item_manufacturer": "CalmCozy",
+    "item_expiry_date": "2024-02-28",
+    "item_in_stock": true
+  },
+  {
+    "id": 9,
+    "item_name": "Fitness Resistance Bands",
+    "item_price": 18.50,
+    "item_price_detail": 15.99,
+    "item_wishlist": true,
+    "item_description": "Elevate your home workouts with FitGear's Fitness Resistance Bands. Versatile and effective, these bands target various muscle groups for a full-body workout. FitGear ensures durability and comfort, making your exercise routine enjoyable and impactful. Expiry Date: 15th November 2023. Shape your body with FitGear's Fitness Resistance Bands.",
+    "item_manufacturer": "FitGear",
+    "item_expiry_date": "2023-11-15",
+    "item_in_stock": true
+  },
+  {
+    "id": 10,
+    "item_name": "Aromatherapy Essential Oils Set",
+    "item_price": 29.99,
+    "item_price_detail": 26.99,
+    "item_wishlist": false,
+    "item_description": "Create a calming atmosphere with PureScents' Aromatherapy Essential Oils Set. Each oil is carefully selected to promote relaxation and enhance your well-being. PureScents ensures purity and quality for a delightful aromatherapy experience. Expiry Date: 30th June 2024. Immerse yourself in the soothing scents of PureScents' Essential Oils Set.",
+    "item_manufacturer": "PureScents",
+    "item_expiry_date": "2024-06-30",
+    "item_in_stock": true
+  },
+  {
+    "id": 11,
+    "item_name": "Running Shoes",
+    "item_price": 59.99,
+    "item_price_detail": 49.99,
+    "item_wishlist": true,
+    "item_description": "RunMax presents high-performance Running Shoes for your active lifestyle. Designed for comfort and durability, these shoes provide the support you need for your daily runs. RunMax ensures quality materials and cutting-edge design for an optimal running experience. Expiry Date: 20th May 2024. Step into excellence with RunMax's Running Shoes.",
+    "item_manufacturer": "RunMax",
+    "item_expiry_date": "2024-05-20",
+    "item_in_stock": true
+  },
+  {
+    "id": 12,
+    "item_name": "Healthy Snack Assortment",
+    "item_price": 14.99,
+    "item_price_detail": 12.49,
+    "item_wishlist": false,
+    "item_description": "SnackWell offers a delightful Healthy Snack Assortment for guilt-free indulgence. Packed with nutritious and tasty snacks, this assortment caters to your cravings while supporting your health goals. SnackWell ensures a perfect blend of flavor and wellness in every bite. Expiry Date: 30th November 2023. Treat yourself with SnackWell's Healthy Snack Assortment.",
+    "item_manufacturer": "SnackWell",
+    "item_expiry_date": "2023-11-30",
+    "item_in_stock": true
+  },
+  {
+    "id": 13,
+    "item_name": "Resistance Exercise Ball",
+    "item_price": 24.99,
+    "item_price_detail": 21.99,
+    "item_wishlist": true,
+    "item_description": "Enhance your workout routine with CoreFit's Resistance Exercise Ball. Ideal for strengthening core muscles and improving stability, this exercise ball offers a versatile fitness experience. CoreFit ensures durability and safety for effective and enjoyable workouts. Expiry Date: 1st October 2023. Elevate your fitness journey with CoreFit's Resistance Exercise Ball.",
+    "item_manufacturer": "CoreFit",
+    "item_expiry_date": "2023-10-01",
+    "item_in_stock": true
+  },
+  {
+    "id": 14,
+    "item_name": "Digital Thermometer",
+    "item_price": 8.99,
+    "item_price_detail": 6.99,
+    "item_wishlist": false,
+    "item_description": "TechHealth introduces a reliable Digital Thermometer for quick and accurate temperature readings. Featuring advanced technology, this thermometer ensures precision and ease of use. TechHealth prioritizes your health monitoring needs with this essential device. Expiry Date: 15th April 2024. Trust TechHealth for your temperature measurement requirements.",
+    "item_manufacturer": "TechHealth",
+    "item_expiry_date": "2024-04-15",
+    "item_in_stock": true
+  },
+  {
+    "id": 15,
+    "item_name": "Fruit Infuser Water Bottle",
+    "item_price": 12.50,
+    "item_price_detail": 9.99,
+    "item_wishlist": true,
+    "item_description": "Stay hydrated with HydrateLife's Fruit Infuser Water Bottle. Infuse your water with natural flavors and enjoy a refreshing and healthy beverage. HydrateLife ensures a convenient and stylish way to maintain your hydration goals. Expiry Date: 15th September 2023. Quench your thirst with the goodness of HydrateLife's Fruit Infuser Water Bottle.",
+    "item_manufacturer": "HydrateLife",
+    "item_expiry_date": "2023-09-15",
+    "item_in_stock": true
+  },
+  {
+    "id": 16,
+    "item_name": "Posture Corrector Brace",
+    "item_price": 17.99,
+    "item_price_detail": 15.99,
+    "item_wishlist": false,
+    "item_description": "Improve your posture and reduce back pain with the Posture Corrector Brace from PosturePros. Designed for comfort and effectiveness, this brace provides gentle support to align your spine. PosturePros ensures quality materials for long-lasting wear. Expiry Date: 15th October 2024. Enhance your well-being with PosturePros' Posture Corrector Brace.",
+    "item_manufacturer": "PosturePros",
+    "item_expiry_date": "2024-10-15",
+    "item_in_stock": true
   }
 ]

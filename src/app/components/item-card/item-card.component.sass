@@ -1,15 +1,15 @@
-$margin-size: 20px
+$margin-size: 0 20px
 $transition-duration: 1.3s
 
 .item-card__container
   margin: $margin-size
-  color: blue
-  transition: margin $transition-duration, color $transition-duration
+  transition: margin $transition-duration
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr))
+  gap: 10px
 
   @media screen and (max-width: 600px)
-    margin: 10px
-    color: red
+    margin: 0 10px
 
   @media screen and (max-width: 400px)
-    margin: 0
-    color: blueviolet
+
