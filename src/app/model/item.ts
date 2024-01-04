@@ -8,4 +8,5 @@ export interface Item {
   item_manufacturer: string,
   item_expiry_date: Date,
   item_in_stock: boolean,
+  item_image: string,
 }
