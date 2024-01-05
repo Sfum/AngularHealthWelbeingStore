@@ -12,6 +12,12 @@ import { HttpClientModule} from "@angular/common/http";
 import {MatIconModule} from "@angular/material/icon";
 import { FilterComponent } from './components/filter/filter.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatListModule} from "@angular/material/list";
+import {MatSliderModule} from "@angular/material/slider";
+import { FilterDetailComponent } from './components/filter/filter-detail/filter-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,15 +26,21 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ItemCardComponent,
     ItemCardDetailComponent,
     FilterComponent,
-    NavbarComponent
+    NavbarComponent,
+    FilterDetailComponent
   ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        MatCardModule,
-        HttpClientModule,
-        MatIconModule
-    ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    HttpClientModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatListModule,
+    MatSliderModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

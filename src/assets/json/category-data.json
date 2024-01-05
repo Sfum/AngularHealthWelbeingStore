@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category_name": "Organic Food",
+    "category_description": "Embrace a healthier lifestyle with our Organic Food category. We are committed to providing you with a wide range of organic products that are grown and produced without the use of artificial pesticides, chemicals, or genetically modified organisms (GMOs). From fresh fruits and vegetables to pantry staples and snacks, our Organic Food section allows you to make conscious choices for yourself and the environment, ensuring that every bite is nourishing and sustainable.",
+    "category_image": "assets/jpeg/category01.jpg"
+  },
+  {
+    "id": 2,
+    "category_name": "Supplements",
+    "category_description": "Boost your well-being with our Supplements category. Discover a comprehensive range of vitamins, minerals, and nutritional supplements to support your health goals. Whether you're looking for immune-boosting capsules, energy-enhancing supplements, or targeted wellness solutions, our Supplements section has you covered. Prioritize your health with our high-quality supplement offerings.",
+    "category_image": "assets/jpeg/category02.jpg"
+  },
+  {
+    "id": 3,
+    "category_name": "Raw Foods",
+    "category_description": "Experience the vitality of Raw Foods with our dedicated category. Packed with essential nutrients and enzymes, our raw food selection includes a variety of unprocessed and minimally cooked options. From raw fruits and vegetables to nuts and seeds, explore the natural goodness of uncooked, wholesome foods that promote health and well-being. Elevate your nutrition with our Raw Foods offerings.",
+    "category_image": "assets/jpeg/category03.jpg"
+  },
+  {
+    "id": 4,
+    "category_name": "Gluten-Free",
+    "category_description": "Delight in gluten-free goodness with our Gluten-Free category. Whether you have dietary restrictions or simply choose a gluten-free lifestyle, our selection offers a variety of delicious and safe options. From gluten-free grains to snacks and treats, explore a world of flavor without compromise. Enjoy the freedom of gluten-free living with our curated Gluten-Free offerings.",
+    "category_image": "assets/jpeg/category04.jpg"
+  },
+  {
+    "id": 5,
+    "category_name": "Lactose-Free",
+    "category_description": "Indulge in lactose-free delights with our Lactose-Free category. Catering to those with lactose intolerance, our selection includes a range of dairy-free alternatives without sacrificing taste. From lactose-free milk to dairy-free desserts, discover a selection that allows you to enjoy dairy-free living without compromise. Treat your taste buds with our Lactose-Free offerings.",
+    "category_image": "assets/jpeg/category05.jpg"
+  },
+  {
+    "id": 6,
+    "category_name": "Sweets",
+    "category_description": "Satisfy your sweet cravings with our Sweets category. Indulge in a delightful assortment of sweet treats, from chocolates and candies to artisan desserts. Our Sweets section is a haven for those with a sweet tooth, offering a variety of confections that cater to different preferences. Treat yourself or find the perfect gift with our tempting Sweets offerings.",
+    "category_image": "assets/jpeg/category06.jpg"
+  },
+  {
+    "id": 7,
+    "category_name": "Brands",
+    "category_description": "Discover top-quality products from renowned Brands in our dedicated category. We bring you a curated selection of items from trusted brands that prioritize quality, innovation, and customer satisfaction. Whether you're looking for skincare essentials, organic options, or supplements, our Brands section ensures you have access to the best in the market. Elevate your shopping experience with our premium Brands offerings.",
+    "category_image": "assets/jpeg/category07.jpg"
+  },
+  {
+    "id": 8,
+    "category_name": "Skincare",
+    "category_description": "Revitalize your skin with our Skincare category. Explore a range of products designed to nourish and enhance your skin's health. From rejuvenating serums to moisturizing creams, our skincare selection is carefully curated to bring out your natural radiance and promote a glowing complexion. Treat your skin to the care it deserves with our premium skincare offerings.",
+    "category_image": "assets/jpeg/category08.jpg"
+  }
+]
