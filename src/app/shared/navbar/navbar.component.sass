@@ -1,6 +1,21 @@
 .navbar-container
   height: 200px
   margin: 0 20px 20px 10px
+  display: grid
+  grid-template-columns: 1fr 1fr 0.5fr 0.5fr
+  border-radius: 20px
+
+.navbar-left
+  grid-column: 1/2
+
+.navbar-right
+  grid-column: 3/4
+  margin: auto
+
+.navbar-icon
+  grid-column: 4/5
+  margin: auto
+  opacity: 80%
 
 .logo-label
   font-family: 'Arial', sans-serif

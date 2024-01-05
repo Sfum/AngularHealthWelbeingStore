@@ -18,6 +18,8 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatListModule} from "@angular/material/list";
 import {MatSliderModule} from "@angular/material/slider";
 import { FilterDetailComponent } from './components/filter/filter-detail/filter-detail.component';
+import {MatInputModule} from "@angular/material/input";
+
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { FilterDetailComponent } from './components/filter/filter-detail/filter-
     MatCheckboxModule,
     MatToolbarModule,
     MatListModule,
-    MatSliderModule
+    MatSliderModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
