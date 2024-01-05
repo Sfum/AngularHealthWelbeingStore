@@ -11,6 +11,7 @@ import {MatCardModule} from "@angular/material/card";
 import { HttpClientModule} from "@angular/common/http";
 import {MatIconModule} from "@angular/material/icon";
 import { FilterComponent } from './components/filter/filter.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FilterComponent } from './components/filter/filter.component';
     HeaderComponent,
     ItemCardComponent,
     ItemCardDetailComponent,
-    FilterComponent
+    FilterComponent,
+    NavbarComponent
   ],
     imports: [
         BrowserModule,

@@ -13,7 +13,7 @@
         <p>Price: ${{ item.item_price }}</p>
       </div>
 
-      <p class="item-card__description align-center">{{ item.item_description | slice: 0:85}}...</p>
+      <p class="item-card__description">{{ item.item_description | slice: 0:85}}...</p>
       <p class="item-card__expiry-date align-center">Expiry Date: {{ item.item_expiry_date | date: 'mediumDate' }}</p>
       <p class="item-card__stock align-center">In Stock: <span class="stock-indicator" [class.in-stock-yes]="item.item_in_stock" [class.in-stock-no]="!item.item_in_stock">{{ item.item_in_stock ? 'Yes' : 'No' }}</span></p>
       <div class="item-card__icons align-center">
