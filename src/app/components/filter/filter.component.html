@@ -1,2 +1,3 @@
-<mat-toolbar>Filters</mat-toolbar>
+<div class="filter">
 <app-filter-detail *ngFor="let category of categoriesData$ | async" [category]="category"></app-filter-detail>
+</div>
