@@ -11,6 +11,6 @@ export class ItemCardComponent {
   constructor(private itemService: ItemService) {
   }
 
-  itemsFetched$ = this.itemService.items$
+  itemsFetched$ = this.itemService.itemsFiltered$
 
 }
