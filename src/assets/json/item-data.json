@@ -9,7 +9,8 @@
     "item_manufacturer": "HealthCo",
     "item_expiry_date": "2024-12-31",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg",
+    "item_categoryId": 7
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "item_manufacturer": "FitLife",
     "item_expiry_date": "2023-10-15",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg",
+    "item_categoryId": 3
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "item_manufacturer": "GreenHarmony",
     "item_expiry_date": "2023-08-20",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg",
+    "item_categoryId": 5
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "item_manufacturer": "ZenLiving",
     "item_expiry_date": "2025-01-15",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg",
+    "item_categoryId": 2
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "item_manufacturer": "OmegaHealth",
     "item_expiry_date": "2024-11-30",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg",
+    "item_categoryId": 4
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "item_manufacturer": "TechFit",
     "item_expiry_date": "2023-12-31",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg",
+    "item_categoryId": 1
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "item_manufacturer": "HerbEssence",
     "item_expiry_date": "2023-09-30",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg",
+    "item_categoryId": 8
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "item_manufacturer": "CalmCozy",
     "item_expiry_date": "2024-02-28",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg",
+    "item_categoryId": 6
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "item_manufacturer": "FitGear",
     "item_expiry_date": "2023-11-15",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg",
+    "item_categoryId": 2
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "item_manufacturer": "PureScents",
     "item_expiry_date": "2024-06-30",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg",
+    "item_categoryId": 4
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "item_manufacturer": "RunMax",
     "item_expiry_date": "2024-05-20",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg",
+    "item_categoryId": 5
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
     "item_manufacturer": "SnackWell",
     "item_expiry_date": "2023-11-30",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg",
+    "item_categoryId": 1
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
     "item_manufacturer": "CoreFit",
     "item_expiry_date": "2023-10-01",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18753-40265-2.jpg",
+    "item_categoryId": 8
   },
   {
     "id": 14,
@@ -165,18 +178,7 @@
     "item_manufacturer": "TechHealth",
     "item_expiry_date": "2024-04-15",
     "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg"
-  },
-  {
-    "id": 15,
-    "item_name": "Fruit Infuser Water Bottle",
-    "item_price": 12.50,
-    "item_price_detail": 9.99,
-    "item_wishlist": true,
-    "item_description": "Stay hydrated with HydrateLife's Fruit Infuser Water Bottle. Infuse your water with natural flavors and enjoy a refreshing and healthy beverage. HydrateLife ensures a convenient and stylish way to maintain your hydration goals. Expiry Date: 15th September 2023. Quench your thirst with the goodness of HydrateLife's Fruit Infuser Water Bottle.",
-    "item_manufacturer": "HydrateLife",
-    "item_expiry_date": "2023-09-15",
-    "item_in_stock": true,
-    "item_image": "https://pub.zoya.bg/upload/productimage/16699-34050-2.jpg"
+    "item_image": "https://pub.zoya.bg/upload/productimage/18645-39646-2.jpg",
+    "item_categoryId": 6
   }
-]
+  ]

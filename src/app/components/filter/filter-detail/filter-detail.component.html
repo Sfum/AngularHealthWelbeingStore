@@ -1,3 +1,8 @@
 <div *ngIf="category">
-  <mat-checkbox class="checkbox">{{ category.category_name }}</mat-checkbox>
+  <mat-checkbox class="checkbox"
+                [(ngModel)]="selectedCategoryId"
+                (change)="onCheckboxChanged(category.id)"
+  >
+    {{ category?.category_name }} {{ selectedCategoryId }}
+  </mat-checkbox>
 </div>

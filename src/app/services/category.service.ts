@@ -14,6 +14,12 @@ export class CategoryService {
   constructor(public http: HttpClient) {
   }
 
-  category$ = this.http.get<Category[]>(this.URL)
-    .pipe(tap((data) => console.log('Category: ', JSON.stringify)));
+  category$= this.http.get<Category[]>(this.URL)
+    .pipe(
+      tap(data => {
+        // Initialize 'selected' property for each category
+        data.forEach(category => category.selected = false);
+        console.log('Category: ', JSON.stringify(data));
+      })
+    );
 }

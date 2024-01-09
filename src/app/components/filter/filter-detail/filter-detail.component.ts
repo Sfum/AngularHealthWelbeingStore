@@ -1,5 +1,7 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Category} from "../../../model/category";
+import {Item} from "../../../model/item";
+import {ItemService} from "../../../services/item.service";
 
 @Component({
   selector: 'app-filter-detail',
@@ -8,7 +10,17 @@ import {Category} from "../../../model/category";
 })
 export class FilterDetailComponent {
 
-  @Input()
-  category: Category | undefined
+  selectedCategoryId: number | null = null
 
+  @Input() category: Category | undefined
+  @Input() item!: Item
+  @Output() categoryChanged: EventEmitter<any> = new EventEmitter<any>()
+
+  onCheckboxChanged(selectedCategoryId: number) {
+    if (this.selectedCategoryId) {
+      this.categoryChanged.emit(selectedCategoryId);
+    } else {
+      this.categoryChanged.emit(0);
+    }
+  }
 }

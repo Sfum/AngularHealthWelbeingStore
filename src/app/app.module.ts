@@ -19,6 +19,7 @@ import {MatListModule} from "@angular/material/list";
 import {MatSliderModule} from "@angular/material/slider";
 import { FilterDetailComponent } from './components/filter/filter-detail/filter-detail.component';
 import {MatInputModule} from "@angular/material/input";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -31,19 +32,20 @@ import {MatInputModule} from "@angular/material/input";
     NavbarComponent,
     FilterDetailComponent
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatCardModule,
-    HttpClientModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatCheckboxModule,
-    MatToolbarModule,
-    MatListModule,
-    MatSliderModule,
-    MatInputModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatCardModule,
+        HttpClientModule,
+        MatIconModule,
+        MatSidenavModule,
+        MatCheckboxModule,
+        MatToolbarModule,
+        MatListModule,
+        MatSliderModule,
+        MatInputModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

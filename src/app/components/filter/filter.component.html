@@ -1,3 +1,6 @@
 <div class="filter">
-<app-filter-detail *ngFor="let category of categoriesData$ | async" [category]="category"></app-filter-detail>
+<app-filter-detail *ngFor="let category of categoriesData$ | async"
+                   [category]="category"
+                   (categoryChanged)="categoryChange($event)"
+></app-filter-detail>
 </div>
